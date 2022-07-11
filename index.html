@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Denis Novik</title>
-    <link rel="stylesheet" href="./denis_novik.css">
-  </head>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+      </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <il><a href="#Home">Home</a></il>
-          <il><a href="#About me">About me</a></il>
-          <il><a href="#Skills">Skills</a></il>
-          <il><a href="#Portfolio">Portfolio</a></il>
-          <il><a href="#Contacts">Contacts</a></il>
+        <div class="container">
+        <ul class="menu">
+          <li class="menu_items"><a href="#Home">Home</a></li>
+          <li class="menu_items" ><a href="#About me">About me</a></li>
+          <li class="menu_items"><a href="#Skills">Skills</a></li>
+          <li class="menu_items" ><a href="#Portfolio">Portfolio</a></li>
+          <li class="menu_items"><a href="#Contacts">Contacts</a></li>
         </ul>
+      </div>
       </nav>
-    </header>
+      </header>      
     <main>
-      <section id="Home"></section>
-      <h1>Denis Novik</h1>
-      <p>UX | UI designer 24 years old, Minsk</p>
-      <picture class="home__photo">
-        <source
-          media="(max-width :576px)"
-          srcset="./img/home/photoMobile.png"
-        />
-        <img src="./img/home/photoDenis.jpg" alt="photo" />
-      </picture>
-      <section id="About"></section>
+      <hr>
+      <section id="Home">
+        <div class="container">
+          <h1>Denis Novik</h1>
+          <span> UX | UI designer 24 years old, Minsk</span>
+          <picture class="home__photo">
+            <source
+              media="(max-width :576px)"
+              srcset="./img/home/photoMobile.png"
+            />
+            <img src="./img/home/photoDenis.jpg" alt="photo" />
+          </picture>
+        </div>
+      </section>
+       <section id="About"></section>
       <h2>About me</h2>
       <p>
         Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and
@@ -82,7 +89,7 @@
       <section id="Contacts"></section>
       <h2>Contacts</h2>
       <p>Want to know more or just chat? You are welcome!</p>
-      <button type="button">Send message</button>
+      <button type="button">Send message</button><br><br><br>
     </main>
     <footer>
       <div>

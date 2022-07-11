@@ -1,0 +1,23 @@
+#Home {
+  padding: 40px 0 104px 0;
+}
+
+h1 {
+  display: inline-block;
+  width: 123px;
+  font-size: 47px;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+span {
+  display: inline-block;
+  margin-left: 666px;
+  width: 155px;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}

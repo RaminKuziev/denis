@@ -1,0 +1,25 @@
+header {
+  padding: 33px 0;
+  }
+
+.menu_items {
+  display: inline-block;
+  font-family: "Gilroy Bold", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.menu_items a {
+  margin-right: 153px;
+}
+
+.menu_items:nth-child(5) a {
+margin-right: 0;
+}
+
+hr {
+  margin: 0 auto;
+  width: 940px;
+  color: #828282;
+}
