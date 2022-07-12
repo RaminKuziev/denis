@@ -1,8 +1,21 @@
 #about {
+    width: 100%;
     font-family: "Gilroy Bold", Arial, Helvetica, sans-serif;
+    background-color: #F6F6F6;
+    padding-bottom: 104px;
+    margin-top: 107px;
 }
 
-h2 {
-    display: block;
-    
-}
+.about_h2 {
+    width: 156px;
+    margin: 0 auto;
+    padding-top: 91px;
+    padding-bottom: 17px;
+    }
+
+    p {
+        margin: 0 auto;
+        width: 485px;
+        text-align: center;
+
+    }

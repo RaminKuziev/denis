@@ -1,6 +1,6 @@
 @import url(./header.css);
 @import url(./home.css);
-
+@import url(./about.css); 
 html {
   scroll-behavior: smooth;
 }
@@ -19,6 +19,3 @@ a {
   max-width: 940px;
   box-sizing: content-box;
 }
-
-
-
