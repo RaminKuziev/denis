@@ -1,0 +1,44 @@
+#skills {
+  font-family: "Gilroy Bold", Arial, Helvetica, sans-serif;
+  padding-top: 91px;
+  padding-bottom: 110px;
+}
+
+.skills__title {
+  margin: 0 auto;
+  width: 124px;
+  text-align: center;
+}
+
+.container > p {
+  margin-top: 69px;
+  margin-bottom: 83px;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+  }
+
+  .skills__card > p {
+    margin-top: 27px;
+    margin-bottom: 40px;
+    max-width: 87px;
+    text-align: center;
+  }
+

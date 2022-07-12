@@ -1,21 +1,20 @@
 #about {
-    width: 100%;
-    font-family: "Gilroy Bold", Arial, Helvetica, sans-serif;
-    background-color: #F6F6F6;
-    padding-bottom: 104px;
-    margin-top: 107px;
+  width: 100%;
+  font-family: "Gilroy Bold", Arial, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+  padding-bottom: 104px;
+  margin-top: 107px;
 }
 
 .about_h2 {
-    width: 156px;
-    margin: 0 auto;
-    padding-top: 91px;
-    padding-bottom: 17px;
-    }
+  width: 156px;
+  margin: 0 auto;
+  padding-top: 91px;
+  padding-bottom: 17px;
+}
 
-    p {
-        margin: 0 auto;
-        width: 485px;
-        text-align: center;
-
-    }
+.about_p {
+  margin: 0 auto;
+  width: 485px;
+  text-align: center;
+}
