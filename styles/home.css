@@ -1,5 +1,5 @@
-#Home {
-  padding: 40px 0 104px 0;
+#home {
+  font-family: "Gilroy Bold", Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -9,15 +9,17 @@ h1 {
   line-height: 59px;
   letter-spacing: 0em;
   text-align: left;
+  padding-top: 40px;
 }
 
 span {
-  display: inline-block;
-  margin-left: 666px;
-  width: 155px;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  
+  float: right;
+  width: 140px;
+  padding-bottom: 49px;
+  padding-top: 95px;
+  padding-bottom: 49px;
+}
+
+.home__photo {
+  padding-bottom: 104px;
 }
