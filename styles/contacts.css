@@ -1,0 +1,49 @@
+.contacts__title {
+  font-family: "Gilroy-Bold", Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  margin-top: 114px;
+  padding-bottom: 20px;
+}
+
+.flex__contacs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts__p {
+  font-family: "Gilroy-Medium", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 29px;
+}
+
+.cotacts__button {
+  font-family: "Gilroy-Bold", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 100px;
+  width: 166px;
+  height: 38px;
+  background-color: black;
+}
+
+.flex_small_icons {
+  width: 341px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+
+.footer_class {
+  width: 273px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 123px;
+}
