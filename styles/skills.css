@@ -27,18 +27,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
-.img {
-  display: block;
-  width: 100%;
-  height: auto;
-  }
 
-  .skills__card > p {
-    margin-top: 27px;
-    margin-bottom: 40px;
-    max-width: 87px;
-    text-align: center;
-  }
-
+.skills__card > p {
+  margin-top: 27px;
+  margin-bottom: 40px;
+  max-width: 87px;
+  text-align: center;
+}

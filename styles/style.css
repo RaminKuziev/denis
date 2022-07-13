@@ -2,6 +2,7 @@
 @import url(./home.css);
 @import url(./about.css); 
 @import url(./skills.css);
+@import url(./portfolio.css);
 html {
   scroll-behavior: smooth;
 }
@@ -20,3 +21,7 @@ a {
   max-width: 940px;
   box-sizing: content-box;
 }
+
+img {
+  display: block;
+  }
