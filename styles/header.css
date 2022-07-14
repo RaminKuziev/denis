@@ -1,25 +1,36 @@
 header {
   padding: 33px 0;
-  }
+}
 
 .menu_items {
-  display: inline-block;
   font-family: "Gilroy Bold", Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 22px;
   text-align: left;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
 .menu_items a {
-  margin-right: 153px;
+  transition: 0.2s;
 }
 
 .menu_items:nth-child(5) a {
-margin-right: 0;
+  margin-right: 0;
 }
 
 hr {
   margin: 0 auto;
   width: 940px;
   color: #828282;
+}
+
+.menu_items a:hover {
+  transition: 0.2s;
+  color: #070707;
 }

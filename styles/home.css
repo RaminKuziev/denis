@@ -2,22 +2,23 @@
   font-family: "Gilroy Bold", Arial, Helvetica, sans-serif;
 }
 
+.container__text {
+  display: flex;
+  justify-content: space-between;
+}
+
 h1 {
-  display: inline-block;
   width: 123px;
   font-size: 47px;
   line-height: 59px;
   letter-spacing: 0em;
-  text-align: left;
   padding-top: 40px;
 }
 
 span {
-  float: right;
   width: 140px;
   padding-bottom: 49px;
   padding-top: 95px;
-  padding-bottom: 49px;
 }
 
 .home__photo {

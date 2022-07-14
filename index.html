@@ -26,11 +26,13 @@
       <hr />
       <section id="home">
         <div class="container">
-          <h1>Denis Novik</h1>
-          <span>
-            UX | UI designer <br />
-            24 years old, Minsk</span
-          >
+          <div class="container__text">
+            <h1>Denis Novik</h1>
+            <span>
+              UX | UI designer <br />
+              24 years old, Minsk</span
+            >
+          </div>
           <picture class="home__photo">
             <source
               media="(max-width :576px)"
@@ -41,16 +43,18 @@
         </div>
       </section>
       <section id="about">
-        <h2 class="about_h2">About me</h2>
-        <p class="about_p">
-          Hi, I'm Denis – UX/UI designer from Minsk. <br />
-          I'm interested in design and everything connected with it.
-          <br /><br /><br />
-          I'm studying at courses "Web and mobile design <br />
-          interfaces" in IT-Academy. <br /><br /><br />
-          Ready to implement excellent projects <br />
-          with wonderful people.
-        </p>
+        <div class="container__about">
+          <h2 class="about_h2">About me</h2>
+          <p class="about_p">
+            Hi, I'm Denis – UX/UI designer from Minsk. <br />
+            I'm interested in design and everything connected with it.
+            <br /><br /><br />
+            I'm studying at courses "Web and mobile design <br />
+            interfaces" in IT-Academy. <br /><br /><br />
+            Ready to implement excellent projects <br />
+            with wonderful people.
+          </p>
+        </div>
       </section>
       <section id="skills">
         <h2 class="skills__title">Skills</h2>
@@ -137,13 +141,21 @@
             Want to know more or just chat? <br />
             You are welcome!
           </p>
-          <button class="cotacts__button" type="button">Send message</button>
         </div>
+        <a class="mail" href="mailto:example@gmail.com"><button class="cotacts__button" type="button">Send message</button></a>
         <div class="flex_small_icons">
-          <img src="./img/footer/in.svg" alt="in" />
-          <img src="./img/footer/insta.svg" alt="inst" />
-          <img src="./img/footer/be.svg" alt="be" />
-          <img src="./img/footer/planet.svg" alt="planet" />
+          <a href="https://linkedin.com/" target="_blank">
+            <img src="./img/footer/in.svg" alt="in"
+          /></a>
+          <a href="https://instagram.com/" target="_blank">
+            <img src="./img/footer/insta.svg" alt="inst"
+          /></a>
+          <a href="https://www.behance.net/" target="_blank">
+            <img src="./img/footer/be.svg" alt="be"
+          /></a>
+          <a href="https://dribbble.com/" target="_blank">
+            <img src="./img/footer/planet.svg" alt="planet"
+          /></a>
         </div>
       </section>
     </main>

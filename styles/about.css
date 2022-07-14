@@ -8,13 +8,17 @@
 
 .about_h2 {
   width: 156px;
-  margin: 0 auto;
   padding-top: 91px;
   padding-bottom: 17px;
 }
 
 .about_p {
-  margin: 0 auto;
   width: 485px;
   text-align: center;
+}
+
+.container__about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
