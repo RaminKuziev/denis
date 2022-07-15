@@ -5,15 +5,18 @@
 }
 
 .skills__title {
-  margin: 0 auto;
-  width: 124px;
   text-align: center;
+  font-size: 34px;
+  line-height: 42px;
 }
 
 .container > p {
   margin-top: 69px;
   margin-bottom: 83px;
   text-align: center;
+  font-family: "Gilroy-Medium", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .wrapper {
@@ -33,5 +36,15 @@
   margin-top: 27px;
   margin-bottom: 40px;
   max-width: 87px;
+  min-height: 32px; /* для вырыниывния элемента со звездочками по вертикали*/
   text-align: center;
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 81px;
+  }
 }

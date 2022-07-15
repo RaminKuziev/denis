@@ -19,6 +19,9 @@
             <li class="menu_items"><a href="#Portfolio">Portfolio</a></li>
             <li class="menu_items"><a href="#Contacts">Contacts</a></li>
           </ul>
+          <div class="menu__burger">
+            <img src="./img/heder/burger.svg" alt="burger" />
+          </div>
         </div>
       </nav>
     </header>
@@ -28,10 +31,7 @@
         <div class="container">
           <div class="container__text">
             <h1>Denis Novik</h1>
-            <span>
-              UX | UI designer <br />
-              24 years old, Minsk</span
-            >
+            <span> UX | UI designer 24 years old, Minsk</span>
           </div>
           <picture class="home__photo">
             <source
@@ -43,17 +43,20 @@
         </div>
       </section>
       <section id="about">
-        <div class="container__about">
-          <h2 class="about_h2">About me</h2>
-          <p class="about_p">
-            Hi, I'm Denis – UX/UI designer from Minsk. <br />
-            I'm interested in design and everything connected with it.
-            <br /><br /><br />
-            I'm studying at courses "Web and mobile design <br />
-            interfaces" in IT-Academy. <br /><br /><br />
-            Ready to implement excellent projects <br />
-            with wonderful people.
-          </p>
+        <div class="container">
+          <div class="container__about">
+            <h2 class="about_h2">About me</h2>
+            <p class="about_p">Hi, I'm Denis – UX/UI designer from Minsk.</p>
+            <p class="about_p">
+              I'm interested in design and everything connected with it.
+            </p>
+            <p class="about_p">
+              I'm studying at courses "Web and mobile design
+            </p>
+            <p class="about_p">interfaces" in IT-Academy.</p>
+            <p class="about_p">Ready to implement excellent projects</p>
+            <p class="about_p">with wonderful people.</p>
+          </div>
         </div>
       </section>
       <section id="skills">
@@ -88,7 +91,7 @@
         </div>
       </section>
       <section id="Portfolio">
-        <div class="flex_wrap">
+        <div class="container">
           <h2 class="portfolio__title">Portfolio</h2>
           <div>
             <img
@@ -135,32 +138,36 @@
         </div>
       </section>
       <section id="contacts">
-        <div class="flex__contacs">
-          <h2 class="contacts__title">Contacts</h2>
-          <p class="contacts__p">
-            Want to know more or just chat? <br />
-            You are welcome!
-          </p>
-        </div>
-        <a class="mail" href="mailto:example@gmail.com"><button class="cotacts__button" type="button">Send message</button></a>
-        <div class="flex_small_icons">
-          <a href="https://linkedin.com/" target="_blank">
-            <img src="./img/footer/in.svg" alt="in"
-          /></a>
-          <a href="https://instagram.com/" target="_blank">
-            <img src="./img/footer/insta.svg" alt="inst"
-          /></a>
-          <a href="https://www.behance.net/" target="_blank">
-            <img src="./img/footer/be.svg" alt="be"
-          /></a>
-          <a href="https://dribbble.com/" target="_blank">
-            <img src="./img/footer/planet.svg" alt="planet"
-          /></a>
+        <div class="container">
+          <div class="flex__contacs">
+            <h2 class="contacts__title">Contacts</h2>
+            <p class="contacts__p">
+              Want to know more or just chat? <br />
+              You are welcome!
+            </p>
+          </div>
+          <a class="mail" href="mailto:example@gmail.com"
+            ><button class="cotacts__button" type="button">Send message</button>
+          </a>
+          <div class="flex_small_icons">
+            <a href="https://linkedin.com/" target="_blank">
+              <img src="./img/footer/in.svg" alt="in"
+            /></a>
+            <a href="https://instagram.com/" target="_blank">
+              <img src="./img/footer/insta.svg" alt="inst"
+            /></a>
+            <a href="https://www.behance.net/" target="_blank">
+              <img src="./img/footer/be.svg" alt="be"
+            /></a>
+            <a href="https://dribbble.com/" target="_blank">
+              <img src="./img/footer/planet.svg" alt="planet"
+            /></a>
+          </div>
         </div>
       </section>
     </main>
-    <footer class="footer_class">
-      <div>
+    <footer>
+      <div class="footer_class">
         <p>
           Like me on <br />
           LinkedIn, Instagram, Behance, Dribble

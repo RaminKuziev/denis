@@ -1,8 +1,12 @@
+#contacts {
+  padding-top: 114px;
+padding-bottom: 46px;
+}
+
 .contacts__title {
   font-family: "Gilroy-Bold", Arial, Helvetica, sans-serif;
   font-size: 34px;
-  margin-top: 114px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .flex__contacs {
@@ -15,9 +19,8 @@
   font-family: "Gilroy-Medium", Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0em;
   text-align: center;
-  padding-bottom: 29px;
+  margin-bottom: 29px;
 }
 
 .cotacts__button {
@@ -32,25 +35,29 @@
 }
 
 .flex_small_icons {
-  width: 341px;
+  max-width: 341px;
   height: auto;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 45px;
+  margin-top: 80px;
 }
 
 .footer_class {
-  width: 273px;
-  margin: 0 auto;
+  font-family: "Gilroy-Medium", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
   text-align: center;
-  padding-bottom: 123px;
+  margin-bottom: 123px;
 }
 
-.mail { 
-display: flex;
-justify-content: center;
-
+.mail {
+  /* display: block;
+  margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
+
 
