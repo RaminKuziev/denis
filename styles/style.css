@@ -1,6 +1,6 @@
 @import url(./header.css);
 @import url(./home.css);
-@import url(./about.css); 
+@import url(./about.css);
 @import url(./skills.css);
 @import url(./portfolio.css);
 @import url(./contacts.css);
@@ -26,5 +26,36 @@ a {
 
 img {
   display: block;
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-family: "Gilroy Bold", Arial, Helvetica, sans-serif;
+    font-size: 47px;
+    line-height: 58px;
   }
 
+  h2,
+  button {
+    font-family: "Gilroy Bold", Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  p,
+  span,
+  a {
+    font-family: "Gilroy Medium", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .skills__p {
+    font-family: "Gilroy-Bold", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  hr {
+    display: none;
+  }
+}

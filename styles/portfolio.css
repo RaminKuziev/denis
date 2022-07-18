@@ -43,3 +43,10 @@ a {
   color: #070707;
   text-decoration: underline;
 }
+
+@media (max-width: 375px) {
+  .img {
+    width: 316px;
+    height: 171px;
+  }
+}

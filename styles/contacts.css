@@ -1,6 +1,6 @@
 #contacts {
   padding-top: 114px;
-padding-bottom: 46px;
+  padding-bottom: 46px;
 }
 
 .contacts__title {
@@ -60,4 +60,10 @@ padding-bottom: 46px;
   cursor: pointer;
 }
 
-
+@media {
+  .cotacts__button {
+    line-height: 20%;
+    width: 316px;
+    height: 42px;
+  }
+}
