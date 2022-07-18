@@ -44,6 +44,19 @@ a {
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+.img {
+  width: 708px;
+}
+}
+
+@media (max-width: 425px) {
+  .img {
+    width: 365px;
+    height: auto;
+    }
+}
+
 @media (max-width: 375px) {
   .img {
     width: 316px;

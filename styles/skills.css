@@ -40,6 +40,14 @@
   text-align: center;
 }
 
+@media (max-width: 425px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 81px;
+  }
+}
+
 @media (max-width: 375px) {
   .wrapper {
     display: flex;

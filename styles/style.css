@@ -59,3 +59,15 @@ img {
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  hr {
+    width: 768px;
+  }
+}
+
+@media (max-width: 425px) {
+  hr {
+    width: 425px;
+  }
+}

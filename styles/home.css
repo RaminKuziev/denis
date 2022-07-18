@@ -30,6 +30,18 @@ span {
   padding-bottom: 104px;
 }
 
+@media (max-width: 768px) {
+  .img__home {
+    width: 708px;
+  }
+}
+
+@media (max-width: 425px) {
+  .img__home {
+    width: 365px;
+  }
+}
+
 @media (max-width: 375px) {
   .container__text {
     display: flex;
@@ -43,5 +55,11 @@ span {
   .home__photo > img {
     margin: 0 auto;
     margin-bottom: 83px;
+  }
+}
+
+@media (max-width: 320px) {
+  .img__home {
+    width: 320px;
   }
 }
